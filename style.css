@@ -325,7 +325,12 @@ color: red;
     margin-top: -17px;
     font-size: 14px;
 }
-
+.section-1 .gap-1{
+    margin-right: 150px;
+}
+.section-1 .gap-2{
+    margin-right: 130px;
+}
 
 
 
