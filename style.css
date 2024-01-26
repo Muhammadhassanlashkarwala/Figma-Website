@@ -87,7 +87,7 @@ border: 1px solid  #0080ff ;
 /* Section 2 start */
 .section{
     width: 100%;
-    height: 700vh;
+    height: 460vh;
     background: white;
     color: black;
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
@@ -340,24 +340,27 @@ color: red;
     color: grey;
 }
 .section-1 .row{
-    display: flex;
+    /* display: flex; */
     align-items: center;
     justify-content: space-between;
-    margin: 30px;
+ 
 }
 .row input{
-    flex: 1 ;
+    /* flex: 1 ; */
     background: transparent;
     font-size: 14px;
     padding: 10px 50px;
+    box-sizing: border-box;
 }
 .row button{
  width: 120px;
- height: 39px;
+ height: 37px;
     border-radius: 0px;
     font-size: 14;
 background: #0080ff; 
 color: white;
+margin-left: -125px;
+box-sizing: border-box;
 }
 .row button:hover{
         background: white;
@@ -366,18 +369,53 @@ color: white;
         transform: scale(1.02);  
         cursor: pointer;  
 }
+/* .second-second{
+    width: ;
+    height: 100vh;
+    background: rgb(12, 18, 73) ;
+} */
 #Second-Last-paragraph{
     width: 100%;
-    height: 100vh;
+    height: 50vh;
     display: flex;
     text-align: center;
     justify-content: space-evenly;
     background: rgb(12, 18, 73) ;
     color: white;
-    margin: auto;
+  margin-left: -50px;
 }
+.box-1{
+    margin-top: 60px;
+}
+.box-1 p{
+    font-size: 16px;
+}
+.box-1 .small-size{
+height: 28px;
+width: 30px;
+border-radius: 50%;
+margin: 10px;
 
-
+}
+.box-2{
+    margin-top: 60px;
+}
+.box-2 li{
+    list-style-type: none;
+    
+}
+.box-3{
+    margin-top: 60px;
+}
+.box-3 li{
+    list-style-type: none;
+}
+.box-4{
+    margin-top: 60px;
+}
+.box-4 li{
+    list-style-type: none;
+}
 
 
 
