@@ -336,7 +336,26 @@ color: red;
     font-size: 14px;
     color: grey;
 }
-
+.section-1 .row{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 30px;
+}
+.row input{
+    flex: 1 ;
+    background: transparent;
+    font-size: 14px;
+    padding: 10px 50px;
+}
+.row button{
+ width: 120px;
+ height: 39px;
+    border-radius: 0px;
+    font-size: 14;
+background: #0080ff; 
+color: white;
+}
 
 
 
