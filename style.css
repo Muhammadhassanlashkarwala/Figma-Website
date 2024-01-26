@@ -87,7 +87,7 @@ border: 1px solid  #0080ff ;
 /* Section 2 start */
 .section{
     width: 100%;
-    height: 500vh;
+    height: 700vh;
     background: white;
     color: black;
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
@@ -157,6 +157,7 @@ color: red;
     background: white;
     font-size: 11px;
     margin-left: 30px;
+    transition: 0.2s ease-in-out;
 }
 
 .section-1 .image-wid-hei-1{
@@ -268,6 +269,8 @@ color: red;
     font-size: 11px;
     margin-left: 535px;
 }  
+
+
 #radius-class{
                position: relative;
 }
@@ -355,6 +358,23 @@ color: red;
     font-size: 14;
 background: #0080ff; 
 color: white;
+}
+.row button:hover{
+        background: white;
+        color: #0080ff; 
+        transition: 0.2s ease-in-out;
+        transform: scale(1.02);  
+        cursor: pointer;  
+}
+#Second-Last-paragraph{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    text-align: center;
+    justify-content: space-evenly;
+    background: rgb(12, 18, 73) ;
+    color: white;
+    margin: auto;
 }
 
 
