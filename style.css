@@ -28,6 +28,11 @@
     text-decoration: none;
     list-style: none;
 }
+p:hover{
+    color: grey;
+    transition: 0.2s ease-in-out;
+    cursor: pointer;
+}
 .navbar a{
     text-decoration: none;
     color: white;
@@ -36,6 +41,11 @@
     padding-left: 280px;
     font-size: 12px;
     padding-right: 30px;
+}
+.padding:hover{
+    color: grey;
+    transition: 0.2s ease-in-out;
+    cursor: pointer;
 }
 .navbar .button{
     background-color: #0080ff;
@@ -47,6 +57,13 @@ padding: 15px 15px 10px 15px;
  font-size: 12px;
  margin-top: -6px;
 
+}
+.button:hover{
+        background: white;
+        color: #0080ff; 
+        transition: 0.2s ease-in-out;
+        transform: scale(1.02);  
+        cursor: pointer; 
 }
 h6{
     color:  #0080ff;
@@ -66,6 +83,13 @@ h6{
     border: none;
     outline: none;
 }
+.button-2:hover{
+    background: white;
+    color: #0080ff; 
+    transition: 0.2s ease-in-out;
+    /* transform: scale(1.02);   */
+    cursor: pointer; 
+    }
 .button-3{
     border-radius: 3px;
     width: 130px;
@@ -75,7 +99,13 @@ h6{
 border: 1px solid  #0080ff ;
  
 }
-
+.button-3:hover{
+background: white;
+color: #0080ff; 
+transition: 0.2s ease-in-out;
+transform: scale(1.02);  
+cursor: pointer; 
+}
 .part-2 img {
     margin: 10px;
     transition: 0.4s ease-in-out;
@@ -349,8 +379,13 @@ color: red;
     /* flex: 1 ; */
     background: transparent;
     font-size: 14px;
-    padding: 10px 50px;
+    padding: 10px 50px 12px 50px;
     box-sizing: border-box;
+    background: whitesmoke;
+    color: grey;
+    border: none;
+    outline: none;
+
 }
 .row button{
  width: 120px;
@@ -369,11 +404,7 @@ box-sizing: border-box;
         transform: scale(1.02);  
         cursor: pointer;  
 }
-/* .second-second{
-    width: ;
-    height: 100vh;
-    background: rgb(12, 18, 73) ;
-} */
+
 #Second-Last-paragraph{
     width: 100%;
     height: 50vh;
@@ -416,8 +447,17 @@ margin: 10px;
 .box-4 li{
     list-style-type: none;
 }
-
-
+.End{
+    width: 100%;
+    height: 10vh;
+    color: grey;
+    background: white;
+}
+footer{
+    font-size: 17px;
+    margin-left: -110px;
+    cursor: pointer;
+}
 
 
 
