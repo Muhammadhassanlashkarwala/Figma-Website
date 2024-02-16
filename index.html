@@ -5,11 +5,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>figma Website</title>
     <link rel="stylesheet" href="style.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 </head>
 <body>
   <div class="header">
     <div class="navbar">
- <p>Hassan Brand </p>
+ <p  data-aos="fade-right">Hassan Brand </p>
  <ul>
   <li><b><a href="#">Home</a></b></li>
   <li><b><a href="#">Product</a></b></li>
@@ -28,7 +29,7 @@
 <br>
 <center><button class="button-2">Get Quote Now</button> <button class="button-3">Learn More</button></center>
 <br><br><br>
-<center><img  src="Images/s.s     1.PNG" alt="First"> <img src="Images/s.s       2.PNG" alt="second"> <img src="Images/s.s    3.PNG" alt="third"></center>
+<center><div data-aos="fade-up"><img  src="Images/s.s     1.PNG" alt="First"> <img src="Images/s.s       2.PNG" alt="second"> <img src="Images/s.s    3.PNG" alt="third"></div></center>
 </div>
   </div>
 <div class="section">
@@ -66,7 +67,7 @@ the two major realms of Classical physics:Newtonian mechanics.</p>
   </p>
 
 
-  <p class="class-12">We focus on erogonomics <br> and meeting you...
+  <p class="class-12" >We focus on erogonomics <br> and meeting you...
     <br><br>
     <b> 15% Sales</b>
      <br><br>
@@ -156,6 +157,11 @@ the two major realms of Classical physics:Newtonian mechanics.</p>
 </div>
 </div>
 </div>
+
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+  AOS.init();
+</script>
 </body>
 </html>
 
